@@ -1,31 +1,51 @@
+# 工作流程的名稱，會顯示在 GitHub 的 Actions 頁面上
 name: CI for React App
 
+# 觸發工作流程的事件
 on:
+  # 當有程式碼推送到 main 分支時觸發
   push:
     branches: ["main"]
-
+  # 當有針對 main 分支的 Pull Request 時觸發 (建立、同步、重新開啟)
   pull_request:
     branches: ["main"]
 
+# 定義工作流程中的任務
 jobs:
+  # 任務的 ID，可以自訂，例如 build-and-test
   build-and-test:
+    # 任務運行的虛擬機環境，ubuntu-latest 是最常用且經濟的選擇
     runs-on: ubuntu-latest
 
+    # 任務中的執行步驟
     steps:
+      # 步驟一：下載你的程式碼到虛擬機中
+      # 使用官方的 action `actions/checkout`
       - name: Checkout code
         uses: actions/checkout@v4
 
+      # 步驟二：設定 Node.js 環境
+      # 使用官方的 action `actions/setup-node`
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
+          # 指定要使用的 Node.js 版本，建議與你本地開發版本一致
           node-version: "20"
+          # (可選) 啟用 npm 快取，可以加速後續的依賴安裝
           cache: "npm"
 
+      # 步驟三：安裝專案依賴
+      # `npm ci` 比 `npm install` 更適合在 CI 環境中使用，它會嚴格按照 package-lock.json 安裝，速度更快且更可靠
       - name: Install dependencies
         run: npm ci
 
+      # 步驟四：執行單元測試和整合測試
+      # `npm test` 會執行你在 package.json 中定義的 "test" script
       - name: Run tests
         run: npm test
 
+      # 步驟五：建置專案
+      # `npm run build` 會執行 Vite 的打包程序，確保專案可以成功打包成靜態檔案
+      # 這是部署前的最後一道品質檢查
       - name: Build project
         run: npm run build
