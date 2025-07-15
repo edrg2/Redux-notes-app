@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 
-import NotesCard from "./NotesCard";
+import NotesCard from "./NoteCard";
 
 export default function NotesList() {
   const notes = useSelector((state) => state.notes.notes);

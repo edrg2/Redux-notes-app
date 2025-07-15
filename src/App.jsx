@@ -1,5 +1,5 @@
-import AddForm from "./features/AddFrom";
-import NotesList from "./features/NotesList";
+import AddForm from "./components/AddNoteForm";
+import NotesList from "./components/NotesList";
 
 export default function App() {
   return (
@@ -7,7 +7,6 @@ export default function App() {
       <h1 className="text-3xl font-bold text-center mb-6">
         📝 Redux Notes App
       </h1>
-
       <AddForm />
       <NotesList />
     </div>

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { editNote, deleteNote } from "./notesSlice";
+import { editNote, deleteNote } from "../features/notesSlice";
 
 export default function NotesCard({ note }) {
   const dispatch = useDispatch();

@@ -10,7 +10,7 @@ const initialState = {
     {
       id: "2",
       title: "學習 React",
-      content: "記得要練習 Hooks 和元件生命週期。",
+      content: "反覆練習 Hooks 和元件生命週期。",
     },
   ],
 };

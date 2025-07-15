@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { addNote } from "./notesSlice";
+import { addNote } from "../features/notesSlice";
 
-export default function AddForm() {
+export default function AddNoteForm() {
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
 
