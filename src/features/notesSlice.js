@@ -24,13 +24,12 @@ const notesSlice = createSlice({
         state.notes.push(action.payload);
       },
       prepare(payload) {
-        const { title, content, pinned } = payload;
+        const { title, content } = payload;
         return {
           payload: {
             id: nanoid(),
             title,
             content,
-            pinned,
           },
         };
       },
