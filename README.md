@@ -1,11 +1,19 @@
 # Redux 筆記本
 
-[![CI/CD Pipeline](https://github.com/edrg2/Redux-notes-app/actions/workflows/ci.yml/badge.svg)](https://github.com/edrg2/Redux-notes-app/actions)
 [**https://edrg2.github.io/Redux-notes-app/**](https://edrg2.github.io/Redux-notes-app/)
+[![CI/CD Pipeline](https://github.com/edrg2/Redux-notes-app/actions/workflows/ci.yml/badge.svg)](https://github.com/edrg2/Redux-notes-app/actions)
 
 一個使用 React 與 Redux 打造的筆記本應用，旨在展示一個完整的現代前端開發流程，從開發、測試到自動化部署。
 
 ---
+
+## 📌 專案展示
+
+![我的 Redux 筆記本截圖](assets/note.png)
+簡單的 Redux 筆記，包含 Create Read Update Delete 功能。
+
+![我的 Vitest 測試截圖](assets/test.png)
+單元 -> 整合測試 共 8 條測試 All passed.
 
 ## ✨ 專案亮點
 
@@ -18,10 +26,12 @@
 ## 🛠️ 技術棧
 
 <p align="left">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" alt="React">
-  <img src="https://img.shields.io/badge/Redux-764ABC?style=flat&logo=redux&logoColor=white" alt="Redux">
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white" alt="Vite">
-  <img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat&logo=vitest&logoColor=white" alt="Vitest">
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white" alt="GitHub Actions">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React">
+  <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white" alt="Redux">
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite">
+  <img src="https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white" alt="Vitest">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions">
 </p>
+
+##
