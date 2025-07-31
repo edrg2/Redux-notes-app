@@ -1,14 +1,16 @@
 # Redux 筆記本
 
-[![CI/CD Pipeline](https://github.com/edrg2/
-Redux-notes-app/actions/workflows/main.yml/badge.svg)](https://github.com/edrg2/
-Redux-notes-app/actions)
+[![CI/CD Pipeline](https://github.com/edrg2/Redux-notes-app/actions/workflows/deploy.yml/badge.svg)](https://github.com/edrg2/Redux-notes-app/actions)
 
-一個在 React 框架下使用 Redux 製作的簡易筆記本，為了學習整體網頁流程而實作的小專案，整合了 Vitest 測試與 GitHub Actions CI/CD 流程。
+一個使用 React 與 Redux 打造的筆記本應用，旨在展示一個完整的現代前端開發流程，從開發、測試到自動化部署。
 
----
+--
 
-## 🚀 Live Demo
+<p align="center">
+  <a href="https://edrg2.github.io/Redux-notes-app/">
+    <img src="https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=rocket" alt="Live Demo">
+  </a>
+</p>
 
 [**https://edrg2.github.io/Redux-notes-app/**](https://edrg2.github.io/Redux-notes-app/)
 
@@ -23,10 +25,10 @@ Redux-notes-app/actions)
 ## 🛠️ 技術棧
 
 <p align="left">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React">
-  <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white" alt="Redux">
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite">
-  <img src="https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white" alt="Vitest">
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" alt="React">
+  <img src="https://img.shields.io/badge/Redux-764ABC?style=flat&logo=redux&logoColor=white" alt="Redux">
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white" alt="Vite">
+  <img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat&logo=vitest&logoColor=white" alt="Vitest">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white" alt="GitHub Actions">
 </p>
