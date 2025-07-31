@@ -1,8 +1,9 @@
 # Redux 筆記本
 
 [![CI/CD Pipeline](https://github.com/edrg2/Redux-notes-app/actions/workflows/ci.yml/badge.svg)](https://github.com/edrg2/Redux-notes-app/actions)
-一個使用 React 與 Redux 打造的筆記本應用，旨在展示一個完整的現代前端開發流程，從開發、測試到自動化部署。
 [**https://edrg2.github.io/Redux-notes-app/**](https://edrg2.github.io/Redux-notes-app/)
+
+一個使用 React 與 Redux 打造的筆記本應用，旨在展示一個完整的現代前端開發流程，從開發、測試到自動化部署。
 
 ---
 
